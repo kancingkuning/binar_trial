@@ -14,7 +14,7 @@ app = Flask(__name__)
 def hello_world():
   json_response ={
       'status_code' :200,
-      'description' : "Menyapa Hello World",
+      'description' : "Menyapa Hello World, yeahh!",
       'data': "Hello World"
   }
 
