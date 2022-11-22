@@ -26,7 +26,7 @@ def text():
   json_response={
       'status_code' :200,
       'description' : "Original Teks",
-      'data': "Hallo, apa kabar semua?"
+      'data': "Hallo, apa kabar Regina?"
   }
   response_data = jsonify(json_response)
   return response_data
